@@ -1,0 +1,15 @@
+﻿<Window x:Class="RecipeApp.RecipeDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Recipe Details" Height="450" Width="400">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ScrollViewer.Background>
+                <ImageBrush ImageSource="/joyful-XfOAfV8vl8I-unsplash.jpg" Stretch="UniformToFill"/>
+            </ScrollViewer.Background>
+            <StackPanel x:Name="recipesStackPanel" Margin="10">
+                <!-- Recipe panels will be dynamically added here -->
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

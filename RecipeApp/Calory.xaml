@@ -1,0 +1,36 @@
+﻿<Window x:Class="RecipeApp.Calory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecipeApp"
+        mc:Ignorable="d"
+        Title="Calory" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/towfiqu-barbhuiya-ZJaK9jQXeDA-unsplash.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label Content="Calory facts" HorizontalAlignment="Left" Margin="467,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="48" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.547"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ScrollViewer HorizontalAlignment="Left" Width="376" Margin="24,83,0,44">
+            <TextBlock TextWrapping="Wrap" Width="376" Height="678" Background="#ADE6AC84" FontSize="14" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.341"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-1.439"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run Text="Low-Calorie Range: A low-calorie range typically refers to calorie intakes below a certain threshold, such as 1, 200 calories per day. This range is often associated with weight loss diets or individuals with specific dietary requirements. It’s important to ensure that even in this range, the diet includes a variety of nutrient-dense foods to meet the body's nutritional needs"/><LineBreak/><Run/><LineBreak/><Run Text="Moderate - Calorie Range: The moderate-calorie range usually falls between 1, 200 and 1, 800 calories per day. This range is commonly recommended for individuals aiming for gradual weight loss or those with moderately active lifestyles. It provides a balance between reducing calorie intake and ensuring adequate nutrition"/><LineBreak/><Run/><LineBreak/><Run Text="High-Calorie Range: A high-calorie range typically ranges from 1, 800 to 2, 500 calories per day. This range is suitable for individuals with higher energy requirements, such as athletes, people with physically demanding jobs, or those looking to gain weight or build muscle mass. It allows for sufficient energy to support physical activity and overall performance."/><LineBreak/><Run/><LineBreak/><Run Text="Very High-Calorie Range: The very high-calorie range generally exceeds 2, 500 calories per day. This range is typically reserved for individuals with exceptionally high energy needs, such as elite athletes or individuals undergoing intense training regimens. It provides significant fuel to support prolonged and intense physical activity"/><LineBreak/><Run/></TextBlock>
+        </ScrollViewer>
+
+    </Grid>
+</Window>
